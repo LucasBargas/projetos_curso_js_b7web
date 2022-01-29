@@ -11,6 +11,13 @@ function drums() {
       })
     })
   });
+
+  document.querySelector('#input').addEventListener('keyup', e => {
+    if (e.key === 'Enter') {
+      const song = e.target.value;
+      splitSong(song);
+    }
+  })
   
   document.body.addEventListener('keyup', e => {
     playSound(e.code.toLowerCase());
@@ -20,13 +27,16 @@ function drums() {
     document.querySelector('.composer button').addEventListener(userEvent, e => {
       e.preventDefault();
       const song = document.querySelector('#input').value;
-      
-      if (song !== '') {
-        const songArray = song.split('');
-        playComposition(songArray);
-      } 
+      splitSong(song);
     })  
   });
+
+  function splitSong(song) {
+    if (song !== '') {
+      const songArray = song.split('');
+      playComposition(songArray);
+    } 
+  }
   
   function playSound(sound) {
     const audioElement = document.querySelector(`#s_${sound}`);
