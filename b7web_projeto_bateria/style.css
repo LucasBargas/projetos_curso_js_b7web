@@ -38,6 +38,11 @@ h1 {
   cursor: pointer;
 }
 
+.key:hover {
+  border: 2px solid #FF0;
+  color: #FF0;
+}
+
 .key.active {
   border: 2px solid #FF0;
   color: #FF0;
