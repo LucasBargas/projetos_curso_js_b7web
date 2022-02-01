@@ -8,3 +8,6 @@
 
 ### Projeto Relógio Analógico
 <https://relogio-projetoslucasbargas.netlify.app/>
+
+### Projeto Buscar Clima
+<https://clima-projetoslucasbargas.netlify.app/>
