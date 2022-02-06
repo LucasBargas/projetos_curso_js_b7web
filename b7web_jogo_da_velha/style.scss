@@ -40,23 +40,23 @@ h1 {
     &:hover {
       background-color: rgba(0, 0, 0, 0.1);
     }
+
+    &.t {
+      border-top: 1px solid $light-color;
+    }
+
+    &.l {
+      border-left: 1px solid $light-color;
+    }
+
+    &.r {
+      border-right: 1px solid $light-color;
+    }
+
+    &.b {
+      border-bottom: 1px solid $light-color;
+    }
   }
-}
-
-.item.t {
-  border-top: 1px solid $light-color;
-}
-
-.item.l {
-  border-left: 1px solid $light-color;
-}
-
-.item.r {
-  border-right: 1px solid $light-color;
-}
-
-.item.b {
-  border-bottom: 1px solid $light-color;
 }
 
 .info {

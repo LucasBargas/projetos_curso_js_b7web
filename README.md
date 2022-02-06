@@ -11,3 +11,6 @@
 
 ### Projeto Buscar Clima
 <https://clima-projetoslucasbargas.netlify.app/>
+
+### Projeto Jogo da Velha
+<https://hashgame-projetoslucasbargas.netlify.app/>
